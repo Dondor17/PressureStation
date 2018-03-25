@@ -1,8 +1,8 @@
-#Pressure Station
-
+# Pressure Station
+ 
 - Pressure Station is a project that easily allows you to measure, display and keep track of atmospheric pressure.
 
-##Installation and requirements
+## Installation and requirements
 **Requirements:**
 
 - BMP180 Barometric Pressure/Temperature/Altitude Sensor
