@@ -10,12 +10,12 @@ sensor = BMP085.BMP085()
 apiKey = ""
 
 def getPressure():
-        value = "{0:0.2f}".format(sensor.read_pressure())
-
+        value = "{0:0.2f}".format(sensor.read_pressure()/100) # Pa to hPa
+		
         return value
 
 while True:
-    pressure = getPressure()/100
+    pressure = getPressure()
 
     request = requests.post('http://127.0.0.1/iot/api.php?api_key=' + apiKey + "&hodnota=" + pressure)
     response = request.text
