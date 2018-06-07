@@ -1,4 +1,9 @@
+
 # Pressure Station
+**Author: Ondřej Dušek **
+
+##Table of contents
+[TOC]
  
 - The aim of this project was to create a small and affordable station that easily allows one to measure, display and keep track of atmospheric pressure.
 
